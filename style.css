@@ -1,0 +1,155 @@
+.job-card {
+  width: 100%;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0px 0px 23px -2px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 0px 23px -2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 23px -2px rgba(0, 0, 0, 0.2);
+}
+.job-card:hover > .recruiter-name {
+  background: #7dc246;
+  color: white;
+}
+.job-card:hover {
+  transform: scale(1.02);
+}
+.recruiter-name {
+  background: #7ec2471a;
+  color: #7dc246;
+  border-radius: 15px;
+  display: inline-block;
+  max-width: 100%;
+  word-wrap: break-word;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  transition: all 0.4s ease-in-out;
+  text-transform: capitalize;
+}
+.job-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  color: #272727;
+  padding-bottom: 5px;
+  padding-top: 32px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.job-salary {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 28px;
+  color: #7ec247b1;
+  padding-bottom: 5px;
+  padding-top: 32px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.job-desc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5b5b5b;
+  opacity: 0.8;
+  padding-bottom: 40px;
+}
+.apply-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #272727;
+}
+.apply-btn:hover {
+  text-decoration: none;
+  color: black;
+}
+.apply-btn::after {
+  content: "";
+  background-image: url(./jobify_btn.png);
+  display: inline-block;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  width: 38px;
+  height: 14px;
+  margin-left: 12px;
+}
+.custom-form > h1 {
+  font-size: 24px;
+  letter-spacing: 6px;
+}
+.form-input {
+  margin-bottom: 21px;
+  position: relative;
+}
+.form-input > span {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 15px;
+  color: #333;
+}
+.form-input > textarea,
+.form-input > input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #e6e6e6;
+  display: block;
+  width: 100%;
+  height: 38px;
+  background: none;
+  padding: 3px 30px 0px;
+  color: #666;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: "arial";
+  font-size: 16px;
+  outline: none;
+}
+.gender-tab {
+  display: flex;
+  align-items: center;
+}
+
+.gender-tab > h4 {
+  font-weight: 500;
+  font-size: 18px;
+  margin-right: 15px;
+}
+
+.gender-tab input {
+  transform: scale(1.2);
+  margin-right: 5px;
+}
+.gender-tab > label {
+  margin-right: 12px;
+  color: #666;
+  cursor: pointer;
+  font-weight: 500;
+}
+.btn-primary {
+  background: #7dc246 !important;
+  border: none !important;
+  outline: none !important;
+  font-size: 20px !important;
+  margin-top: 10px;
+}
+.btn-primary:active {
+  border: none;
+  outline: none;
+}
+.btn-outline-primary {
+  border-color: #7dc246 !important;
+  color: #7dc246 !important;
+}
+.btn-outline-primary:hover {
+  background: #7dc246 !important;
+  color: white !important;
+}
